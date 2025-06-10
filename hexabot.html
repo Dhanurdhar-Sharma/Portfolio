@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.ico" type="image/ico">
+
+    <script src="https://kit.fontawesome.com/57f27d3c4e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="\css\style_1.css">
+    <title>Dhanurdhar</title>
+</head>
+<body class="h-auto lg:h-screen w-[100%] overflow-y-scroll lg:overflow-y-hidden">
+    <main class="h-full w-[100%] bg-black text-white block lg:flex lg:flex-row ">
+        
+        <div id="left-main" class="hidden md:justify-center items-center h-[600px] md:h-[800px] lg:h-[100%] w-[100%] md:w-[100%] lg:w-[35%] lg:flex">
+            <div id="box" class="h-[90%] w-[80%] md:w-[95%] lg:w-[70%] rounded-[10px] sticky md:top-[15%] md:left-[2.5%] lg:left-[10%] flex flex-col">
+                <div id="upper-box" class="h-[50%] md:h-[60%] w-full rounded-[10px] flex items-end justify-center">
+                    <img src="images/my.png" class="h-[90%] w-[70%] md:w-[50%] lg:w-[70%] xl:w-[70%] rounded-[20px]" alt="">
+                </div>
+                <div id="lower-box" class="h-[50%] md:h-[40%] lg:h-[50%] w-full rounded-[10px] text-center">
+                    <div id="detail-box" class="h-[60%] w-full flex flex-col items-center">
+                        <b class="text-[24px] md:text-[28px] pt-[10px]">Dhanurdhar Sharma</b>
+                        <p>Software Engineer | Web Developer <br> Jaipur, Rajasthan, India</p>
+                        <div id="social-box" class="h-[35%] w-[70%] md:w-[50%] flex justify-around pt-[20px]">
+                            <a href="https://www.linkedin.com/in/dhanurdhar-sharma/" target="_blank" class="h-[90%] w-[22%] flex justify-center items-center decoration-none">
+                                <i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;"></i>
+                            </a>
+                            <a href="https://github.com/Dhanurdhar-Sharma" target="_blank" class="h-[90%] w-[22%] flex justify-center items-center decoration-none">
+                                <i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>
+                            </a>
+                            <a href="https://x.com/Dhanurdhar17024" class="h-[90%] w-[22%] flex justify-center items-center decoration-none">
+                                <i class="fa-brands fa-x-twitter fa-xl" style="color: #ffffff;"></i>
+                            </a>
+                            <a href="mailto:dhanurdhar1724@gmail.com" class="h-[90%] w-[22%] flex justify-center items-center decoration-none">
+                                <i class="fa-regular fa-envelope fa-xl" style="color: #ffffff;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="resume-section" class="h-[40%] w-full flex items-center justify-center">
+                        <a id="resume-button" href="\images\Dhanurdhar Sharma's Resume.pdf" target="_blank" class="h-[50%] w-[70%] flex items-center justify-center rounded-[15px] text-[20px]">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="right-main" class="text-center h-auto  md:h-[100%] w-[100%] lg:w-[65%] lg:overflow-y-scroll">
+            <section id="Projectdiscription" class="h-auto w-full pt-[90px] pl-[5%] pb-[30px] flex flex-col items-center text-start lg:block ">
+                <a href="index.html" class="inline-block bg-purple-500 text-white text-[18px] font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-purple-600 transition-colors duration-300 mb-[15px]">Home</a>
+                <img src="\images\hexabot.jpg" alt="Hexabot" class="h-[350px] w-[90%] md:w-[80%] lg:w-[80%] rounded-[20px] object-contain">
+                <div class="h-auto w-[90%] md:w-[80%] lg:w-[80%] mt-[20px] flex flex-col items-start">
+                    <p class="text-[32px] lg:text-[48px] font-bold">Hexabot</p><hr class="h-[2px] w-[100%] bg-purple-500 mt-[10px]">
+                    <br>
+                    <p class="text-[16px] lg:text-[20px] mt-[10px]"><b class="text-purple-500">Project Overview:
+                    </b><br>Hexabot is a six-legged robotic project (hexapod) currently under development, designed to mimic insect-like locomotion using 18 SG90 servo motors controlled by an Arduino. The bot is capable of walking using coordinated leg movements on various surfaces. In future upgrades, the project aims to incorporate a Raspberry Pi 5 for enhanced control and features such as autonomous indoor navigation, obstacle avoidance, and voice-command-based location targeting. The ultimate goal is to enable the Hexabot to map its environment and move to specific locations in response to user input.</p>
+                    <p class="text-[16px] lg:text-[20px] mt-[10px]"><b class="text-purple-500">Key Features:</b></p>
+                    <ul class="text-[16px] lg:text-[20px] mt-[10px] list-disc ml-[20px]">
+                        <li>Uses 18 SG90 servo motors (3 per leg) for stable and versatile movement.</li>
+                        <li>Operated via an Arduino ESP32, handling real-time leg coordination.</li>
+                        <li>Custom gait logic implemented for balanced forward/backward walking using Coxa, Femur, and Tibia coordination.</li>
+                    </ul>
+                    <br>
+                    <p class="text-[16px] lg:text-[20px] mt-[10px]"><b class="text-purple-500">Future Planes:</b></p>
+                    <ul class="text-[16px] lg:text-[20px] mt-[10px] list-disc ml-[20px]">
+                        <li>In future we are going to upgrade its microcontroller to Rasberry Pi 5.</li>
+                        <li>We are planning to add face recognization in it.</li>
+                        <li>We are going to make it SLAM (Simultanious Localization and Mapping) robot.</li>
+                    </ul>
+                    <br>
+                    <br>
+                    <p class="text-[16px] lg:text-[20px] mt-[10px] text-purple-500"><b>Technologies Used:</b></p>
+                    <ul class="text-[16px] lg:text-[20px] mt-[10px] list-disc ml-[20px]">
+                        <li>Hardware Used: ESP32, XL4016 Buck Convertor, 16 channel Servo motor Driver, Sg90 Servo motor</li>
+                        <li>Tools Used : Arduino IDE</li>
+                    </ul><br>
+                    <p class="text-[16px] lg:text-[20px] mt-[10px]"><b class="text-purple-500">Teamates:</b> Yash Kumar, Binit Kothari</p><br>
+            </section>
+            <section  class="h-auto w-full pt-[50px] pl-[5%] pb-[20px] flex flex-col items-center lg:block">
+                <p class="h-auto w-[90%] md:w-[80%] lg:w-[80%] text-[48px] lg:text-[64px] text-center lg:text-start font-bold">More <span class="text-purple-500">Projects</span></p>
+                <div id="project-showcase-box" class="h-auto w-[90%] md:w-[90%] lg:w-[70%] mt-[15px] flex flex-col justify-around">
+                    <div class="project-showcase-row h-auto w-[100%] flex flex-col md:flex-row lg:flex-row xl-flex-row  items-center justify-around ">
+                        <a href="/projectMediq.html" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group mb-[10px] md:mb-[0px] lg:mb-[0px] xl:mb-[0px]">
+                            <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                                <img src="\images\medical.png"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                            </div>
+                            <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                                <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">MediQ</b>
+                                <p class="text-[16px] text-gray-300 ml-[15px]">Online Medical Shop</p>
+                            </div>
+                        </a>
+                        <a href="lms.html" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group">
+                            <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                                <img src="\images\lms.jpg"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                            </div>
+                            <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                                <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">LMS</b>
+                                <p class="text-[16px] text-gray-300 ml-[15px]">Smarter way to manage Library</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-showcase-row h-auto w-[100%] mt-[15px] flex flex-col md:flex-row lg:flex-row xl-flex-row items-center justify-around">
+                        <a href="smart_home_maker.html" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group mb-[10px] md:mb-[0px] lg:mb-[0px] xl:mb-[0px]">
+                            <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                                <img src="\images\iot.jpg"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                            </div>
+                            <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                                <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">SHM</b>
+                                <p class="text-[16px] text-gray-300 ml-[15px]">Smart Home Maker</p>
+                            </div>
+                        </a>
+                        <a href="C:\Users\dhanu\Documents\VS_CODE\websites\index.html" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group">
+                            <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                                <img src="\images\web1.png"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                            </div>
+                            <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                                <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">Web Portfolio</b>
+                                <p class="text-[16px] text-gray-300 ml-[15px]">Light Theme Portfolio Design</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-showcase-row h-auto w-[100%] mt-[15px] flex flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-around">
+            <a href="dtl.html" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group mb-[10px] md:mb-[0px] lg:mb-[0px] xl:mb-[0px]">
+                <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                    <img src="images\dtl.jpeg"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                </div>
+                <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                    <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">Dynamic Traffic Light</b>
+                    <p class="text-[16px] text-gray-300 ml-[15px]">time saving idea at traffic light</p>
+                </div>
+            </a>
+            <a href="hexabot.html" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group">
+                <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                    <img src="images\Hexabot.jpg"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                </div>
+                <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                    <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">Hexabot</b>
+                    <p class="text-[16px] text-gray-300 ml-[15px]">A robot having six legs</p>
+                </div>
+            </a>
+        </div>
+                </div>
+                
+            </section>                                                   
+         </div>
+    </main>
+</body>
+</html>
