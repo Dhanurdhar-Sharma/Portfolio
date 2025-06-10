@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+#box{
+    background-color: rgba(88, 88, 88, 0.648);
+    background-image: url('../images/back.png');
+    background-size:100%;
+}
+#resume-button{
+    background-color: #8b48e8;
+}
+#nav-bar, #nav-bar1{
+    background-color: rgba(88, 88, 88, 0.648);
+}
+.nav-box::before{
+    content: '';
+    height:100%;
+    width:100%;
+    position:absolute;
+    z-index: -1;
+    border-radius: 10px;
+    transform: scale(0);
+    background-color: #8b48e8;
+    transition: transform 0.3s ease;
+}
+.nav-box:hover::before{
+    transform: scale(1);
+}
+
+#Home{
+    animation: when_see 2s forwards;
+}
+#About, #Education, #Skills, #Contact, #Projects{
+    animation:when_see linear;
+    animation-timeline: view();
+    animation-range:entry 0% cover 40%;
+}
+#nav-bar1, #nav-bar{
+    animation:when_see1 1s forwards;
+}
+@keyframes when_see1 {
+    0%{
+        opacity:0;
+        transform: translateY(-200px);
+    }
+    100%{
+        opacity:1;
+        transform:translate(0px)
+    }
+}
+@keyframes when_see {
+    0%{
+        opacity:0;
+        transform: translateY(200px);
+    }
+    100%{
+        opacity:1;
+        transform:translate(0px)
+    }
+}
+#progress1{
+    animation:progress1-ani linear;
+    animation-timeline: view();
+    animation-range:entry 0% cover 22%;
+}
+
+@keyframes progress1-ani {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+#progress2{
+    animation:progress22ani linear;
+    animation-timeline: view();
+    animation-range:entry 0% cover 22%;
+}
+
+@keyframes progress2-ani {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:80%;
+    }
+}
+
+#progress3{
+    animation:progress3-ani linear;
+    animation-timeline: view();
+    animation-range:entry 0% cover 22%;
+}
+
+@keyframes progress3-ani {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:72%;
+    }
+}
+
+#progress4{
+    animation:progress4-ani linear;
+    animation-timeline: view();
+    animation-range:entry 0% cover 22%;
+}
+
+@keyframes progress4-ani {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:68%;
+    }
+}
+
+#progress5{
+    animation:progress5-ani linear;
+    animation-timeline: view();
+    animation-range:entry 0% cover 22%;
+}
+
+@keyframes progress5-ani {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:60%;
+    }
+}
+
+
+
