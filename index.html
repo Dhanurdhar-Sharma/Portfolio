@@ -44,7 +44,7 @@
         <div id="left-main" class=" flex pt-[50px] md:block justify-center items-center h-[600px] md:h-[800px] lg:h-[100%] w-[100%] md:w-[100%] lg:w-[35%]">
             <div id="box" class="h-[90%] w-[80%] md:w-[95%] lg:w-[70%] rounded-[10px] sticky md:top-[15%] md:left-[2.5%] lg:left-[10%] flex flex-col">
                 <div id="upper-box" class="h-[50%] md:h-[60%] w-full rounded-[10px] flex items-end justify-center">
-                    <img src="images/my.png" class="h-[90%] w-[70%] md:w-[50%] lg-[70%] xl:w-[70%] rounded-[20px]" alt="">
+                    <img src="images/my.webp" class="h-[90%] w-[70%] md:w-[50%] lg-[70%] xl:w-[70%] rounded-[20px]" alt="">
                 </div>
                 <div id="lower-box" class="h-[50%] md:h-[40%] lg:h-[50%] w-full rounded-[10px] text-center">
                     <div id="detail-box" class="h-[60%] w-full flex flex-col items-center">
@@ -148,78 +148,72 @@
                     </div>
                 </div>
             </section>
-            <!-- Tailwind Skill Section - Purple Theme, Accessible & Animated -->
-<section id="Skills" class="w-full py-16 px-[5%] bg-gradient-to-b from-black via-[#111] to-black text-white">
-  <div class="max-w-6xl mx-auto">
-    
-    <!-- Heading -->
-    <header class="mb-12 text-center">
-      <h2 class="text-4xl lg:text-6xl font-extrabold tracking-tight">
-        My Skill <span class="text-purple-500">Sets</span>
-      </h2>
-      <p class="mt-2 text-gray-400">Technology stack I work with</p>
-    </header>
-
-    <!-- Skills Grid -->
-    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-      
-      <!-- Skill Card -->
-      <div class="group relative bg-[#1a1a1a]/80 border border-purple-500/20 rounded-2xl p-6 overflow-hidden shadow-[0_0_15px_rgba(139,72,232,0.2)] hover:shadow-[0_0_25px_rgba(139,72,232,0.4)] transition-all">
-        <!-- Floating Glow Effect -->
-        <div class="absolute inset-0 bg-gradient-to-tr from-purple-600/20 via-transparent to-purple-800/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-        
-        <!-- Circular Progress -->
-        <div class="flex flex-col items-center">
-          <div class="relative w-28 h-28 mb-4">
-            <svg class="w-28 h-28 scale-110 -rotate-90" viewBox="0 0 100 100">
-              <circle class="text-gray-700" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50"/>
-              <circle class="text-purple-500" stroke-width="10" stroke-linecap="round" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50"
-                stroke-dasharray="283" stroke-dashoffset="28" /> <!-- 90% -->
-            </svg>
-            <span class="absolute inset-0 flex items-center justify-center text-xl font-bold">90%</span>
-          </div>
-          <h3 class="text-xl font-semibold">Web Development</h3>
-          <p class="mt-2 text-gray-400 text-sm">HTML • CSS • Django • Flask</p>
+            <section id="Projects" class="h-auto w-full pt-[50px] pl-[5%] pb-[20px] flex flex-col items-center lg:block">
+    <p class="h-auto w-[90%] md:w-[80%] lg:w-[80%] text-[48px] lg:text-[64px] text-center lg:text-start font-bold">Recent Projects and <span class="text-purple-500">Achivements</span></p>
+    <div id="project-showcase-box" class="h-auto w-[90%] md:w-[90%] lg:w-[70%] mt-[15px] flex flex-col justify-around">
+        <div class="project-showcase-row h-auto w-[100%] flex flex-col md:flex-row lg:flex-row xl-flex-row  items-center justify-around ">
+            <a href="projectMediq.html" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group mb-[10px] md:mb-[0px] lg:mb-[0px] xl:mb-[0px]">
+                <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                    <img src="images\medical.png"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                </div>
+                <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                    <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">MediQ</b>
+                    <p class="text-[16px] text-gray-300 ml-[15px]">Online Medical Shop</p>
+                </div>
+            </a>
+            <a href="lms.html" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group">
+                <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                    <img src="images\lms.jpg"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                </div>
+                <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                    <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">LMS</b>
+                    <p class="text-[16px] text-gray-300 ml-[15px]">Smarter way to manage Library</p>
+                </div>
+            </a>
         </div>
-      </div>
-
-      <!-- Repeat Skill Card with Different Percent -->
-      <div class="group relative bg-[#1a1a1a]/80 border border-purple-500/20 rounded-2xl p-6 overflow-hidden shadow-[0_0_15px_rgba(139,72,232,0.2)] hover:shadow-[0_0_25px_rgba(139,72,232,0.4)] transition-all">
-        <div class="absolute inset-0 bg-gradient-to-tr from-purple-600/20 via-transparent to-purple-800/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-        <div class="flex flex-col items-center">
-          <div class="relative w-28 h-28 mb-4">
-            <svg class="w-28 h-28 scale-110 -rotate-90" viewBox="0 0 100 100">
-              <circle class="text-gray-700" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50"/>
-              <circle class="text-purple-500" stroke-width="10" stroke-linecap="round" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50"
-                stroke-dasharray="283" stroke-dashoffset="42" /> <!-- 85% -->
-            </svg>
-            <span class="absolute inset-0 flex items-center justify-center text-xl font-bold">85%</span>
-          </div>
-          <h3 class="text-xl font-semibold">Python</h3>
-          <p class="mt-2 text-gray-400 text-sm">Pandas • OpenCV • ML</p>
+        <div class="project-showcase-row h-auto w-[100%] mt-[15px] flex flex-col md:flex-row lg:flex-row xl-flex-row items-center justify-around">
+            <a href="smart_home_maker.html" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group mb-[10px] md:mb-[0px] lg:mb-[0px] xl:mb-[0px]">
+                <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                    <img src="images\iot.jpg"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                </div>
+                <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                    <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">SHM</b>
+                    <p class="text-[16px] text-gray-300 ml-[15px]">Smart Home Maker</p>
+                </div>
+            </a>
+            <a href="C:\Users\dhanu\Documents\VS_CODE\websites\index.html" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group">
+                <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                    <img src="images\web1.png"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                </div>
+                <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                    <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">Web Portfolio</b>
+                    <p class="text-[16px] text-gray-300 ml-[15px]">Light Theme Portfolio Design</p>
+                </div>
+            </a>
         </div>
-      </div>
-
-      <!-- Another Skill -->
-      <div class="group relative bg-[#1a1a1a]/80 border border-purple-500/20 rounded-2xl p-6 overflow-hidden shadow-[0_0_15px_rgba(139,72,232,0.2)] hover:shadow-[0_0_25px_rgba(139,72,232,0.4)] transition-all">
-        <div class="absolute inset-0 bg-gradient-to-tr from-purple-600/20 via-transparent to-purple-800/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-        <div class="flex flex-col items-center">
-          <div class="relative w-28 h-28 mb-4">
-            <svg class="w-28 h-28 scale-110 -rotate-90" viewBox="0 0 100 100">
-              <circle class="text-gray-700" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50"/>
-              <circle class="text-purple-500" stroke-width="10" stroke-linecap="round" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50"
-                stroke-dasharray="283" stroke-dashoffset="85" /> <!-- 70% -->
-            </svg>
-            <span class="absolute inset-0 flex items-center justify-center text-xl font-bold">70%</span>
-          </div>
-          <h3 class="text-xl font-semibold">IoT</h3>
-          <p class="mt-2 text-gray-400 text-sm">Raspberry Pi • Sensors</p>
-        </div>
-      </div>
-
+        <div class="project-showcase-row h-auto w-[100%] mt-[15px] flex flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-around">
+            <a href="dtl.html" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group mb-[10px] md:mb-[0px] lg:mb-[0px] xl:mb-[0px]">
+                <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                    <img src="images\dtl.jpeg"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                </div>
+                <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                    <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">Dynamic Traffic Light</b>
+                    <p class="text-[16px] text-gray-300 ml-[15px]">time saving idea at traffic light</p>
+                </div>
+            </a>
+            <a href="hexabot.html" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group">
+                <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                    <img src="images\Hexabot.jpg"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                </div>
+                <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                    <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">Hexabot</b>
+                    <p class="text-[16px] text-gray-300 ml-[15px]">A robot having six legs</p>
+                </div>
+            </a>
+        </div>    
     </div>
-  </div>
-</section>
+    
+            </section>
             <section id="Projects" class="h-auto w-full pt-[50px] pl-[5%] pb-[20px] flex flex-col items-center lg:block">
     <p class="h-auto w-[90%] md:w-[80%] lg:w-[80%] text-[48px] lg:text-[64px] text-center lg:text-start font-bold">Recent Projects and <span class="text-purple-500">Achivements</span></p>
     <div id="project-showcase-box" class="h-auto w-[90%] md:w-[90%] lg:w-[70%] mt-[15px] flex flex-col justify-around">
@@ -303,8 +297,60 @@
             <p class="text-purple-500 mt-[10px] pb-[10px]">&copy; Copyright Dhanurdhar Sharma. All rights reserved.</p>
          </div>
     </main>
+    <script>
+ const skillsGrid = document.getElementById('skillsGrid');
+const toggleBtn = document.getElementById('toggleSkillsBtn');
+
+const rowHeight = 380; // Approximate height of one row (adjust if needed)
+const maxVisibleRows = 3;
+const maxHeightCollapsed = rowHeight * maxVisibleRows;
+
+// Initially collapse grid height
+skillsGrid.style.maxHeight = maxHeightCollapsed + 'px';
+toggleBtn.style.display = 'none'; // Hide initially
+
+let expanded = false;
+
+// Function to check if toggle button is needed
+function checkToggleVisibility() {
+  // Remove max-height restriction temporarily to measure full height
+  skillsGrid.style.maxHeight = 'none';
+  const fullHeight = skillsGrid.scrollHeight;
+  skillsGrid.style.maxHeight = expanded ? 'none' : maxHeightCollapsed + 'px';
+
+  if (fullHeight > maxHeightCollapsed + 10) {
+    toggleBtn.style.display = 'inline-block';
+  } else {
+    toggleBtn.style.display = 'none';
+  }
+}
+
+// Run on load and resize
+window.addEventListener('load', checkToggleVisibility);
+window.addEventListener('resize', () => {
+  checkToggleVisibility();
+  if (!expanded) {
+    skillsGrid.style.maxHeight = maxHeightCollapsed + 'px';
+    toggleBtn.textContent = 'Show More';
+  }
+});
+
+toggleBtn.addEventListener('click', () => {
+  if (!expanded) {
+    skillsGrid.style.maxHeight = skillsGrid.scrollHeight + 'px';
+    toggleBtn.textContent = 'Show Less';
+  } else {
+    skillsGrid.style.maxHeight = maxHeightCollapsed + 'px';
+    toggleBtn.textContent = 'Show More';
+    skillsGrid.scrollIntoView({ behavior: 'smooth' });
+  }
+  expanded = !expanded;
+});
+
+</script>
 </body>
 </html>
+
 
 
 
