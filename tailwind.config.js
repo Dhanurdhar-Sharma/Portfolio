@@ -27,7 +27,7 @@ module.exports = {
     'text-[18px]',
     'mb-[15px]',
     'rounded-lg',
-    'px-6', 'py-3'
+    'px-6', 'py-3','py-5'
   ],
   theme: {
     extend: {},
